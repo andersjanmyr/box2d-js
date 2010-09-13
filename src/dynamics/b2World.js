@@ -469,6 +469,10 @@ b2World.prototype =
     return this.m_contactList;
   },
 
+  SetGravity: function(gravity) {
+    this.m_gravity = gravity;
+  },
+
   //--------------- Internals Below -------------------
 
   m_blockAllocator: null,
